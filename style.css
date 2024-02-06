@@ -1,5 +1,8 @@
 body {
-      background-color: #CDC6C3;
+      background-color: #CDC6C3; width: device-width;
+      border: thick solid #a38f85;
+      padding: 50px;
+      margin: 20px;
       }
     
 
@@ -8,10 +11,6 @@ h1 {
     font-family: Georgia;
     font-size: 36px; 
     text-align: center;
-    width: 300px;
-    border: thick solid #a38f85;
-    padding: 50px;
-    margin: 20px;
 }
 
 h2 {
