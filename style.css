@@ -1,0 +1,25 @@
+
+body{ background-color: violet;}
+
+h1{color: black; font-family: Georgia; font-size: large; text-align: center;}
+
+h2{color:darkblue; font-family: verdana; font-size: medium;}
+
+h3{color: lavender;font-family: Courier New; font-size: small;}
+
+h4{color: blue; font-family: Impact; font-size: medium}
+
+p{color:white; font-family: arial; font-size: 12pt;}
+
+p{ border: 2px blueviolet; margin: 50px; }
+
+A:link {text-decoration: none}
+A:visited {text-decoration:underline; color: purple;}
+A:active {background-color:tan; text-decoration: none; color: grey;}
+A:hover {text-decoration: underline; color: red;}
+
+
+
+
+
+
