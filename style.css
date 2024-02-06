@@ -1,8 +1,6 @@
 body {
       background-color: #CDC6C3;
-      border: thick solid #a38f85;
-      padding: 50px;
-      margin: 20px;}
+      }
     
 
 h1 {
@@ -10,6 +8,10 @@ h1 {
     font-family: Georgia;
     font-size: 36px; 
     text-align: center;
+    width: 300px;
+    border: thick solid #a38f85;
+    padding: 50px;
+    margin: 20px;
 }
 
 h2 {
