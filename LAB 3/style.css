@@ -57,4 +57,22 @@ a:hover {
     width: 1000px;
 }
 
+.menu ul{
+    list-style-type: none;
+    background-color: beige;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:inline;
+    text-align: center;
+}
+.menu li{
+    float: left;
+}
 

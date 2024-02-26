@@ -3,3 +3,5 @@ function func1() {
         
 function func2() {
     document.getElementsByClassName("menu").style.color = "black";}
+
+
