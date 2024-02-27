@@ -14,7 +14,7 @@ function func2() {
 
 function myfunction() {
     var username = window.prompt("Enter your name");
-    var outputDiv= document.getElementsByClassName("output");
+    var outputDiv= document.getElementsById("output");
     outputDiv.innerHTML = "Hello, " + username + "!";
 
 }
