@@ -14,6 +14,9 @@ function func2() {
 
 function myfunction() {
     var username = window.prompt("Enter your name");
+    var outputDiv= document.getElementsByClassName("output");
+    outputDiv.innerHTML = "Hello, " + username + "!";
+
 }
 
 function enlargeImg() {
@@ -27,3 +30,4 @@ function enlargeImg() {
         imgs[i].style.transition = "transform 0.25s ease";}
     }
 }
+
