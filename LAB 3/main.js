@@ -6,6 +6,5 @@ function func2() {
 
 
 function myfunction() {
-    alert("Enter your name");
-    username = window.prompt("What is yourname?")
+    username = window.prompt("Enter your name")
 }
