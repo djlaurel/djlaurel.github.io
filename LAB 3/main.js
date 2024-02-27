@@ -19,7 +19,11 @@ function myfunction() {
 function enlargeImg() {
     var imgs = document.getElementsByClassName("img-me");
     for (var i = 0; i < imgs.length; i++) {
+        if (imgs[i].style.transform = "scale(1.5)") { 
+            imgs[i].style.transform = "scale(1)";
+        imgs[i].style.transition = "transform 0.25s ease";}
+        else {
         imgs[i].style.transform = "scale(1.5)";
-        imgs[i].style.transition = "transform 0.25s ease";
+        imgs[i].style.transition = "transform 0.25s ease";}
     }
 }
