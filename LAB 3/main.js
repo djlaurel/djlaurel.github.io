@@ -8,3 +8,7 @@ function func2() {
 function myfunction() {
     username = window.prompt("Enter your name")
 }
+
+function enlargeImg() {
+    img = getElementsByClassName("img-me")
+}
