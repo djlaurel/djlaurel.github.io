@@ -14,10 +14,10 @@ function func2() {
 
 function myfunction() {
     var username = window.prompt("Enter your name");
-    var outputDiv= document.getElementsById("output");
+    var outputDiv = document.getElementById("output");
     outputDiv.innerHTML = "Hello, " + username + "!";
-
 }
+
 
 function enlargeImg() {
     var imgs = document.getElementsByClassName("img-me");
