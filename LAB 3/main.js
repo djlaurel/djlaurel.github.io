@@ -10,5 +10,8 @@ function myfunction() {
 }
 
 function enlargeImg() {
-    img = getElementsByClassName("img-me")
+    img = getElementsByClassName("img-me");
+    img.style.transform= "scale(1.5)";
+    img.style.transform= "transform 0.25s ease";
+
 }
