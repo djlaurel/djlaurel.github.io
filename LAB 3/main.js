@@ -1,17 +1,25 @@
 function func1() {
-    document.getElementsByClassName("menu").style.color = "dark blue";}
+    var menus = document.getElementsByClassName("menu");
+    for (var i = 0; i < menus.length; i++) {
+        menus[i].style.color = "darkblue";
+    }
+}
         
 function func2() {
-    document.getElementsByClassName("menu").style.color = "black";}
-
+    var menus = document.getElementsByClassName("menu");
+    for (var i = 0; i < menus.length; i++) {
+        menus[i].style.color = "black";
+    }
+}
 
 function myfunction() {
-    username = window.prompt("Enter your name")
+    var username = window.prompt("Enter your name");
 }
 
 function enlargeImg() {
-    img = document.getElementsByClassName("img-me");
-    img.style.transform= "scale(1.5)";
-    img.style.transform= "transform 0.25s ease";
-
+    var imgs = document.getElementsByClassName("img-me");
+    for (var i = 0; i < imgs.length; i++) {
+        imgs[i].style.transform = "scale(1.5)";
+        imgs[i].style.transition = "transform 0.25s ease";
+    }
 }
