@@ -1,7 +1,7 @@
 function func1() {
     var menus = document.getElementsByClassName("menu");
     for (var i = 0; i < menus.length; i++) {
-        menus[i].style.color = "darkblue";
+        menus[i].style.color = "red";
     }
 }
         
