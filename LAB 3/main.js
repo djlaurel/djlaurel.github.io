@@ -1,12 +1,12 @@
 function func1() {
-    var menus = document.getElementsByClassName("menu");
+    var menus = document.getElementsByClassName("menus");
     for (var i = 0; i < menus.length; i++) {
         menus[i].style.color = "red";
     }
 }
         
 function func2() {
-    var menus = document.getElementsByClassName("menu");
+    var menus = document.getElementsByClassName("menus");
     for (var i = 0; i < menus.length; i++) {
         menus[i].style.color = "black";
     }
