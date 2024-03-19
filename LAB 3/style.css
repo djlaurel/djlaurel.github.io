@@ -79,3 +79,10 @@ a:hover {
     float:left;
 }
 
+.logo{
+    text-indent: -9999999px;
+    background: url(Heading\ \(3\).png);
+    width: 968px;
+    height: 148px;
+}
+
